@@ -1,2 +1,0 @@
-
-basePath = process.env.PWD;
