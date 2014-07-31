@@ -1,4 +1,11 @@
 
+# Bugs
+
+## Mock DOM for CLI testing (node)
+Test with require render something to DOM need mock document object.   
+https://github.com/tmpvar/jsdom
+
+# Flux
 
 ## Replace Dispatcher in src/dispatcher with module from
 https://github.com/facebook/flux

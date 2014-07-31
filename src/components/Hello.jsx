@@ -3,15 +3,25 @@
  */
 
 var React = require('react');
-var css = require("./Hello.css");
+var css = require("./hello.css");
 
 
 var Hello = React.createClass({
 
+	getInitialState: function() {
+		return {
+			content: this.props.content
+		};
+	},
+
+	handleClick: function() {
+	    this.setState({content: "zmena" });
+	},
+
     render: function() {
         return (
-            <div className="hello">
-                <div>Hello</div>
+            <div onClick={this.handleClick} className="hello">
+                <h1>{this.state.content}</h1>
             </div>
         );
     }
