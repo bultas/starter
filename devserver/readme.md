@@ -5,4 +5,5 @@ To use webpack-dev-sever you have to install node module webpack-dev-server glob
 <code>npm install webpack-dev-server -g</code>
 
 ## Run
-run <code>npm run devserver</code> from your project folder -> this will start a server at http://localhost:9500/
+run <code>npm run dev-server</code> from your project folder -> this will start a server at http://localhost:9500/
+If you want to run both: test and dev server.. run <code>npm run devtest-server</code>

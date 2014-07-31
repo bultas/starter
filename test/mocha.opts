@@ -1,4 +1,0 @@
---recursive
---require test/config
---compilers jsx:test/compiler
---compilers css:test/compiler

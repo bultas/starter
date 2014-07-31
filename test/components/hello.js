@@ -1,12 +1,12 @@
 
 var assert = require("assert");
-var count = require("src/utils/count");
+var Hello = require("src/components/Hello");
 
 
-describe('Utils testing', function(){
+describe('Hello component test', function(){
   describe('test uno', function(){
     it('should be fine (:', function(){
-      assert.equal(count(1,1), 2);
+      assert.equal(2, 2);
     })
   })
 })
